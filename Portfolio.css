@@ -1,0 +1,61 @@
+div{
+    margin: 10px;
+    background-color: rgb(207, 204, 204);
+}
+
+#header{
+    padding-top: 20px;
+    max-height: 500px;
+    max-width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+img{
+    border: 2px solid black;
+    border-radius: 50%;
+    max-width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#second{
+    max-height: 20%;
+    max-width: 100%;
+    padding: 20px;
+}
+
+#third{
+    padding: 20px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.in{
+    flex-direction: column;
+    min-width: 300px;
+    min-height: 300px;
+    max-height: 1000px;
+    max-width: 600px;
+    margin:10px;
+    border: 2px solid rgb(103, 102, 102);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    width: 100%;
+}
+
+#footer{
+    text-align: center;
+    padding: 10px;
+}
+
+#Project1{
+    padding: 10px;
+    text-align: start;
+}
